@@ -24,9 +24,9 @@ const Contact = () => {
           </p>
 
           <div className="contact-info">
-            <p><strong>Email:</strong> hello@staynest.com</p>
+            <p><strong>Email:</strong> hello@stratestate.com</p>
             <p><strong>Phone:</strong> +256 700 123 456</p>
-            <p><strong>Office:</strong> Kampala, Uganda</p>
+            <p><strong>Offices:</strong> Kampala, Uganda</p>
           </div>
         </div>
 
@@ -52,7 +52,7 @@ const Contact = () => {
             placeholder="Your Message"
             value={form.message}
             onChange={handleChange}
-            rows="5"
+            rows="6"
             required
           />
           <button type="submit">Send Message</button>

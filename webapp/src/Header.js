@@ -9,7 +9,7 @@ const Header = () => {
     
     <header className="navbar">
       <div className="navbar__logo">
-        <Link to="/">🏡 Stratcome Estate</Link>
+        <Link to="/">🏡 Stratcom Estate</Link>
       </div>
 
        <nav className={`navbar__links ${menuOpen ? 'open' : ''}`}>
